@@ -13,3 +13,6 @@ def plus(a,b):
 
 def minus(a,b):
   return a-b
+
+def f(a,b):
+  return a**b
