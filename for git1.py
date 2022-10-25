@@ -42,6 +42,7 @@ class Tree:
     def printTree(self):
         self.inOrder(self.root)
 
+  # we find successor . it help us when deleting node with given value
     def getSuccessor(self,delNode):
 
         successorParent = delNode
