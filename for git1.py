@@ -1,6 +1,4 @@
 
-
-
 class Node:
     def __init__(self,i):
         self.rightChild = None
@@ -40,14 +38,15 @@ class Tree:
             print(localroot.iData, end = " ")
             self.inOrder(localroot.rightChild)
 
+    # func shows Tree in inOrder order
     def printTree(self):
-        self.inOrder(sefl.root)
+        self.inOrder(self.root)
 
     def getSuccessor(self,delNode):
 
         successorParent = delNode
         successor = delNode
-        current = current.rightChild
+        current = delNode.rightChild
 
         while current is not None:
             successorParent = successor
@@ -129,3 +128,8 @@ class Tree:
         return current
 
 
+#            som comments
+#            to check hot git-changes work
+#
+#
+#
