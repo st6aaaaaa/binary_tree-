@@ -5,3 +5,9 @@ def finc(a,b):
 
     print('hello world')
     return -1
+
+
+
+def plus(a,b):
+  return a+b
+
