@@ -1,4 +1,9 @@
-
+##
+#
+#
+# Class Node:
+# place is where we store values of Node
+#
 class Node:
     def __init__(self,i):
         self.rightChild = None
