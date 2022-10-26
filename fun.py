@@ -16,3 +16,6 @@ def minus(a,b):
 
 def k(a):
   return 1 -a
+
+def t(a):
+  return 5 -a
