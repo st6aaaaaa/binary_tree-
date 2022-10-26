@@ -13,3 +13,9 @@ def plus(a,b):
 
 def minus(a,b):
   return a-b
+
+def f(a,b):
+  return a**b
+
+def f1(a1,b):
+  return b**a1
