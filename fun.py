@@ -13,3 +13,6 @@ def plus(a,b):
 
 def minus(a,b):
   return a-b
+
+def k(a):
+  return 1 -a
